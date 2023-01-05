@@ -7,10 +7,28 @@
     <link href="index.css" rel="stylesheet">
     <title>Notas moveis</title>
 </head>
-<body >
-    <div id="tela"></div>
-    <textarea id="Notas">Escreva oque quiser aqui...</textarea>
-    <div id="trash"><strong>Se quiser apagar algo traga aqui!</strong></div>
+<body>
+    <header>
+        <nav>
+            <ul id="Navegação">
+                <a href="#Produtos" class="Link"><strong>Produtos</strong></a>
+                <a href="#Jogos" class="Link"><strong>Jogos</strong></a>
+                <a href="#Contatos" class="Link"><strong>Contatos</strong></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="Container">
+        <div id="Botões">
+            <button class="Mudar" onclick="Mudar_r()"><img src="Headphone_red.png" width="50px"></button>
+            <button class="Mudar" onclick="Mudar_b()"><img src="Headphone_blue.png" width="50px"></button>
+            <button id="Botão">Comprar</button>
+        </div>
+        <img id="Headphone" src="Headphone_red.png" width="500px">
+        <p>Um lindo headphone gamer disponivel em varias cores!</p>
+        
+    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
