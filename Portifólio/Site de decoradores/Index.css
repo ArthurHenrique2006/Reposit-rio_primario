@@ -8,6 +8,7 @@ body{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(176, 176, 116);
 }
 header{
     background-color: rgb(255, 255, 136);
@@ -52,4 +53,35 @@ section img{
     width: 400px;
     margin-left: 55%;
     border: solid 5px yellow;
+}
+#Nossosclientes ul{
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+}
+.pessoa{
+    width: 250px;
+    text-align: center;
+    background-color: rgb(255, 255, 136);
+    border-radius: 20px;
+    border: solid 5px black;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 220px;
+    overflow-y: hidden;
+    transition: ease;
+    transition-duration: 1s;
+}
+.pessoa:hover{
+    height: fit-content;
+    width: 250px;
+    transition: ease-out;
+    transition-duration: 1s;
+}
+.pessoa img{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    
 }
