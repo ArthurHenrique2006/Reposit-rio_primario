@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+ul{
+    margin-left: 35%;
+    margin-top: 50px;
+    display: block;
+    overflow-y: auto;
+}
+video{
+    border-radius: 20px;
+
+}
