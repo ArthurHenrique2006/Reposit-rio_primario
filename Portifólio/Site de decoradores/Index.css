@@ -47,41 +47,42 @@ section{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
 }
-section img{
+#SobreNós img{
     border-radius: 20px;
     width: 400px;
     margin-left: 55%;
     border: solid 5px yellow;
 }
-#Nossosclientes ul{
-    list-style: none;
+#Clientes{
+    margin: 0 auto;
+    width: 280px;
+    height: 420px;
+    overflow: hidden;
     display: flex;
-    overflow-x: auto;
 }
 .pessoa{
-    width: 250px;
-    text-align: center;
-    background-color: rgb(255, 255, 136);
-    border-radius: 20px;
-    border: solid 5px black;
+    width: 300px;
+    position: relative;
     padding: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 220px;
-    overflow-y: hidden;
-    transition: ease;
-    transition-duration: 1s;
-}
-.pessoa:hover{
-    height: fit-content;
-    width: 250px;
-    transition: ease-out;
-    transition-duration: 1s;
+    border: solid 5px rgb(176, 176, 116);
+    border-radius: 20px;
+    text-align: center;
+    
 }
 .pessoa img{
-    height: 200px;
-    width: 200px;
-    margin: 0;
-    
+    width: 250px;
+}
+.texto{
+    display: flex;
+}
+footer{
+    height: 400px;
+}
+sl1:checked ~ .pessoa{
+    margin-left: 0;
+}
+sl2:checked ~ .pessoa{
+    margin-left: 25%;
 }

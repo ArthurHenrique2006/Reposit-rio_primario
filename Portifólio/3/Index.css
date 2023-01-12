@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 226, 255);
+}
+#login{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(134, 134, 134);
+    width: 1000px;
+    height: 300px;
+    margin: 15% auto;
+    border: 5px solid rgb(79, 126, 255);
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    color: rgb(79, 126, 255);
+}
+#Logo{
+    height: 270px;
+    border-radius: 15px;
+}
+#informacoes{
+    display: block;
+    padding-left: 5px;
+}
+#Titulo{
+    margin-bottom: 10px;
+}
+.Input{
+    border-radius: 10px;
+    width: 356px;
+    height: 25px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.Button{
+    width: 50px;
+    height: 35px;
+}
