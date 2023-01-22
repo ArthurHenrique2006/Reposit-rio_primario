@@ -34,7 +34,8 @@ select{
     padding-left: 25%;
 }
 #total{
-    display: inline-block;
-    width: 300px;
-    height: 200px;
+    border: rgb(34, 34, 34) solid 2.5px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
