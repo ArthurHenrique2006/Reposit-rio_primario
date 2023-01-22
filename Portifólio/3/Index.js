@@ -2,12 +2,15 @@ function add(){
     var n = document.getElementById('name')
     var p = document.getElementById('preço')
     var lista = document.getElementById('L')
+    var t = document.getElementById('TOTAL')
 
-    var nome = Text(n.value)
-    var preço = Number(p.preço)
+    var preço = Number(p.value)
+    var nome = String(n.value)
+    var total = Number(n.value)
 
     var item = document.createElement('option')
     item.text = `${nome}    ${preço}`
+    total.text = `${total + preço}`
 
-    lista.appendChild(item)
+    lista.add(item)
 }
