@@ -5,34 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Index.css" rel="stylesheet">
-    <title>Login</title>
+    <script src="Index.js"></script>
+    <title>Lista de compras</title>
 </head>
 <body>
-    <div id="login">
-        <!--Logo-->
-        <img src="Logo.webp" id="Logo">
-        <div id="informacoes">
-            <!--Titulo-->
-            <h1 id="Titulo">Bem-Vindo</h1>
-            
-            <!--Informações-->
-            <!--Nome-->
-            <h2>Qual seu nome?</h2>
-            <input type="text" name="Name" class="Input">
 
-            <!--Email-->
-            <h2>E seu email?</h2>
-            <input type="email" name="email" class="Input">
+    <section id="adicionar">
+        <h1 class="titulo">ADICIONAR PRODUTO</h1>
+        <div>
+            <label for="name">PRODUTO:</label>
+            <input type="text" name="name" id="name">
 
-            <!--Senha-->
-            <h2>Qual quer que sejá sua senha?</h2>
-            <input type="password" name="password" class="Input"> 
+            <label for="preço">PREÇO:</label>
+            <input type="number" name="preço" id="preço">
+            <label for="preço">R$</label>
+
+            <button onclick="add()">ADICIONAR</button>
         </div>
-        <div id="Botões">
-            <button id="login" class="Button">Entrar</button>
-            <button id="sign" class="Button">Criar conta</button>
-        </div>        
-    </div>
-
+    </section>
+    
+    <section id="lista">
+        <h1 class="titulo">LISTA</h1>
+        <div>
+            <select id="L"></select>
+        </div>
+    </section>
 </body>
 </html>
