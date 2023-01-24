@@ -31,11 +31,21 @@ select{
     width: 100%;
 }
 .titulo{
-    padding-left: 25%;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255);
+    border: solid black 2.5px;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: 10px;
 }
-#total{
+#TOTAL{
     border: rgb(34, 34, 34) solid 2.5px;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+.textbox{
+    border-radius: 5px;
+    padding: 5px;
 }

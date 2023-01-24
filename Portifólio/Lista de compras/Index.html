@@ -14,10 +14,10 @@
         <h1 class="titulo">ADICIONAR PRODUTO</h1>
         <div>
             <label for="name">PRODUTO:</label>
-            <input type="text" name="name" id="name">
+            <input class="textbox" type="text" name="name" id="name">
 
             <label for="preço">PREÇO:</label>
-            <input type="number" name="preço" id="preço">
+            <input class="textbox" type="number" name="preço" id="preço">
             <label for="preço">R$</label>
 
             <button onclick="add()">ADICIONAR</button>
@@ -27,11 +27,11 @@
     <section id="lista">
         <h1 class="titulo">LISTA</h1>
             <div>
-                <select id="L"></select>
+                <select type="number" size="10" id="L" class="textbox"></select>
             </div>
-        <section id="total">
+        <section id="TOTAL">
             <h1>TOTAL:</h1>
-            <div id="TOTAL">0</div>
+            <div id="total">0</div>
         </section>
     </section>
 </body>
