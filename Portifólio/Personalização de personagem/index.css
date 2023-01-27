@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+#resultado{
+    position: relative;
+}
+#personagem{
+    position: absolute;
+    z-index: 1;
+}
+#armario{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#camisa{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 150px;
+    z-index: 2;
+}
+#calça{
+    margin-top: 400px;
+    margin-left: 200px;
+    z-index: 2;
+}
