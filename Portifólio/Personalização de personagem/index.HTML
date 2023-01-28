@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-    <title>Personagem</title>
-</head>
-<body>
-    <section id="armario">
-        <input onclick="mudar_camisaP()" type="radio" checked="true" name="camisa" class="camisa" id="camisaP">
-        <label for="camisaP"><img src="Camisa_Preta.png" width="100px"></label>
-        <input onclick="mudar_camisaB()" type="radio" name="camisa" class="camisa" id="camisaB">
-        <label for="camisaB"><img src="Camisa_Branca.jpeg" width="100px"></label>
-    </section>
-    <section id="resultado">
-        <div id="personagem">
-        <img src="personagem.png" width="700px">
-        </div>
-        <div id="camisa">
-        <img src="Camisa_Preta.png" width="400px" id="fotocamisa">
-        </div>
-        <div id="calça">
-        <img src="Calça_jeans.jpeg" width="300px" id="fotocalça">
-        </div>
-    </section>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <title>Personagem</title>
+    </head>
+    <body>
+        <section id="armario">
+            <div id="Camisas">Camisas
+                <input onclick="mudar_camisaP()" type="radio" checked="true" name="camisa" class="camisa" id="camisaP">
+                <label for="camisaP"><img src="Camisa_Preta.png" width="100px"></label>
+                <input onclick="mudar_camisaB()" type="radio" name="camisa" class="camisa" id="camisaB">
+                <label for="camisaB"><img src="Camisa_Branca.jpeg" width="100px"></label>
+            </div>
+        </section>
+        <section id="resultado">
+            <div id="personagem">
+                <img src="personagem.png" width="700px">
+            </div>
+            <div id="camisa">
+                <img src="Camisa_Preta.png" width="400px" id="fotocamisa">
+            </div>
+            <div id="calça">
+                <img src="Calça_jeans.jpeg" width="300px" id="fotocalça">
+            </div>
+        </section>
+    </body>
 </html>
